@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.nav-bar {
+    width: 100%;
+    position: fixed !important;
+    z-index: 99999;
+}
+
+.main-container {
+    position: relative;
+    top: 56px;
+}
+
+.map {
+    position: relative;
+}
+
+.infobox {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: white;
+    border-radius: 20px;
+}
+
+#search-box {
+    position: absolute;
+    width: 100%;
+    top: 222px;
+}

@@ -1,0 +1,20 @@
+.container-infobox {
+    height: min-content;
+    width: min-content;
+    padding: 20px;
+}
+
+.button-container {
+    width: auto;
+    padding: 3px;
+}
+
+img, #result{
+	height: 200px;
+	width: 300px;   
+	border-radius: 5px;
+}
+
+#instructions{
+	height: 110px;
+}
