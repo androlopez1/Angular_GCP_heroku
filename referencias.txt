@@ -1,0 +1,9 @@
+https://es.enfsolar.com/pv/panel-datasheet/crystalline/34712
+http://solarmat.es/es/conexion-a-red/panel-solar-ja-solar-mono-perc-60-celulas-310-wp.html
+https://clickrenovables.com/blog/como-calcular-una-instalacion-solar-fotovoltaica-en-5-pasos/
+https://solargis.com/products/api
+https://www.programmableweb.com/category/solar/api
+https://globalsolaratlas.info/
+
+Base de datos de radiación solar desde 2007 hasta 2017
+https://re.jrc.ec.europa.eu/pvg_tools/en/tools.html

@@ -1,0 +1,33 @@
+<div class="container-cotizacion" id="container-cotizacion">
+	<h1><b>Presupuesto Personalizado</b></h1>
+	<br>
+	<div class="seccion_1" id="seccion_1">
+		<p>Número de paneles:</p>
+		<input type="text" class="form-control" id="paneles_input" readonly>
+		<p>Potencia:</p>
+		<input type="text" class="form-control" id="potencia" readonly>
+		<p>Area usada del tejado:</p>
+		<input type="text" class="form-control" id="area_input" readonly>
+	</div>
+	<br>
+	<div class ="costo" id="costo">
+		<h3>Coste estimado de la instalación:</h3>
+		<br>
+		<div class="total" id="total"><p>Coste total:</p><input type="text" id="total_input" readonly></div>
+		<div class="ahorro" id="ahorro"><p>Ahorro:</p><input type="text" id="ahorro_input" readonly></div>
+		<div class="autoconsumo" id="autoconsumo"><p>Autoconsumo:</p><input type="text" id="autoconsumo_input" readonly></div>
+		<div class="materiales" id="materiales"><p>Materiales:</p>
+			<ul>
+				<li>Módulos JA Solar Mono PERC de 320 W</li>
+				<li>Inversor Kostal (PIKO MP Plus)</li>
+				<li>Inversor Fronius (Primo, Symo)</li>
+				<li>Inversor Huawei (SUN2000)</li>
+				<li>Estructura Schletter</li>
+			</ul>
+		</div>
+		<div class="cotizacion-button" id="cotizacion-button">
+			<div class ="boton-cotizacion"><button  type="button" class="btn btn-success" id="cotizacion">Solicitar presupuesto</button></div>
+			<div class ="boton-atras"><a href="#container-results"><button  type="button" class="btn btn-secondary" id="boton-atras">Regresar</button></a></div>
+			<div class ="boton-borrar"><a href="#map"><button  type="button" class="btn btn-danger" id="boton-borrar">Nuevo Presupuesto</button></a></div>
+	</div>
+</div>

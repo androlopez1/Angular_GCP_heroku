@@ -7,6 +7,8 @@ import { InfoboxComponent } from './infobox/infobox.component';
 import { MapComponent } from './map/map.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { InfoboxResultsComponent } from './infobox-results/infobox-results.component';
+import { CotizacionComponent } from './cotizacion/cotizacion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     InfoboxComponent,
     MapComponent,
     SearchBoxComponent,
-    NavBarComponent
+    NavBarComponent,
+    InfoboxResultsComponent,
+    CotizacionComponent
   ],
   imports: [
     BrowserModule,

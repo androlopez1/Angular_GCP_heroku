@@ -11,7 +11,7 @@ constructor() { }
 private static promise: Promise<any>;
 
 public static load(): Promise<any> {
-let browserKey = "AIzaSyBs8U5qCbRb7aW1VNc2fJMdXh1nl3BxBdQ";
+let browserKey = "";
 let map = {
   URL: 'https://maps.googleapis.com/maps/api/js?libraries=geometry,places,drawing&key=' + browserKey + '&callback=__onGoogleLoaded',      
 }

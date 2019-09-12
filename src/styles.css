@@ -1,6 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-bar {
     width: 100%;
     position: fixed !important;
@@ -12,9 +18,11 @@
     top: 56px;
 }
 
+/*
 .map {
     position: relative;
 }
+*/
 
 .infobox {
     position: absolute;
@@ -28,4 +36,8 @@
     position: absolute;
     width: 100%;
     top: 222px;
+}
+
+#infobox-results{
+    width: 100%;
 }

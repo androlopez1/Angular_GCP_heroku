@@ -1,13 +1,19 @@
 <div class="container-infobox" id="container-infobox">
 	<!-- <div class="display" *ngFor='let message of mapService.message'> {{message}} </div> -->
-	<div class="container-image" id="container-image"> 
-		<img src="/assets/instrucciones.png" id="instructions"/>
-		<img src="/assets/gif.gif"/>
+	<div class="container-image" id="container-image">
+		<img src="./assets/instrucciones.png" id="instructions"/>
+		<img src="./assets/gif.gif"/>
 	</div>
-	<input type="text" id="result" readonly>
+	<div id="div-result">
+		<p><b>Tu tejado tiene:</b></p>
+		<p>Potencial fotovoltaico:<p>
+		<div id="potencial"><input type="text"  class="form-control" id="result" readonly></div>
+		<p>Area simulada:<p>
+		<div id="tejado"><input type="text" class="form-control" id="result_2" readonly></div>
+	</div>
 	<div class="button-container">
 		<button type="button" class="btn btn-danger" id="clear" >Borrar</button>
-		<button  type="button" class="btn btn-success" id="continue">Continuar</button>
+		<a href="#container-results"><button  type="button" class="btn btn-success" id="continue">Continuar</button></a>
 		<button  type="button" class="btn btn-success" id="start">Empecemos!</button>
 	</div>
 </div>

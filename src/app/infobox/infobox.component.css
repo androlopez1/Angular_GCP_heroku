@@ -5,11 +5,11 @@
 }
 
 .button-container {
-    width: auto;
+    width: max-content;
     padding: 3px;
 }
 
-img, #result{
+img{
 	height: 200px;
 	width: 300px;   
 	border-radius: 5px;
@@ -17,4 +17,17 @@ img, #result{
 
 #instructions{
 	height: 110px;
+}
+
+a, a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+#result, #result_2{
+	border:0px;
+}
+
+div#tejado, div#potencial {
+    padding-bottom: 10px;
 }
